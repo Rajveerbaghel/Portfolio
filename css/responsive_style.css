@@ -20,7 +20,7 @@
 @media(max-width: 1230px){
 	.header .nav-item{
 		margin: 0 5px;
-		background-color:#4096a9;
+		background-color: #4096a9ad;
 	}
 	.slider{
 		padding: 50px 0 10px;
@@ -54,7 +54,7 @@
 		font-size: 18px;
 	}
 	.header .navbar{
-		background: #4096a9;
+		background: #4096a9ad;
 	}
 	.header .navbar-brand img{
 		width: 180px;

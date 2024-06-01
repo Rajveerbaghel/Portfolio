@@ -31,15 +31,15 @@
 }
 
 h1{
-    font-size:60px;
+    font-size:50px;
     font-family: var(--primary-font);
-    letter-spacing:5px;
+    /* letter-spacing:5px; */
     font-weight: 500;
     
 } 
 h3{
-    font-size:35px; 
-    letter-spacing:2px;
+    font-size:30px; 
+    /* letter-spacing:2px; */
     font-weight: 700;
     color:var(--text-white);
     margin-bottom:15px;
@@ -73,7 +73,7 @@ body{
     overflow-x: hidden;
 }
 .header .navbar{
-    background-color: #4096a9;
+    background-color: #4096a9ad;
     height: 60px;
     width: 100%;
     
@@ -130,6 +130,12 @@ body{
 
 .about2{
     padding-bottom: 8%;
+}
+.btn2{
+    text-decoration: none;
+    background-color: #4096a9ad;
+    height: 35px;
+    width: 125px;
 }
 
 /*
@@ -196,7 +202,7 @@ body{
 /*Projects section*/
 .project{
     /* background-color: white; */
-    height: 300px;
+    height: 330px;
     border: 1px solid black;
 }
 .project img{
@@ -242,10 +248,20 @@ body{
     padding:35px 30px;
     border-radius: 80px;
 } 
-.footer .block_newsletter input{
-    border-radius: 25px;
-    height:50px;
+.footer .block_newsletter .input-group{
+    border: solid #4096a9;
 }
+.footer .block_newsletter input{
+    height:50px;
+    width: 40%;
+    border: solid #4096a9;
+    border-radius: 0%
+}
+.footer .block_newsletter textarea{
+    border: solid #4096a9;
+    width: 100%;
+}
+
 .footer .block_newsletter input:focus,
 .footer .block_newsletter button{
     outline:none;
@@ -253,15 +269,17 @@ body{
 }
 .footer .block_newsletter button{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     padding:15px 20px;
     height:50px;
-    line-height: 20px;
-    border-radius: 25px;
+    border: solid #4096a9;
+    /* line-height: 20px;
+    border-radius: 25px; */
     background-color:var(--bg-red);
     border-color:var(--bg-red);
     color:var(--text-white);
     text-transform: uppercase;
+    margin: 10px 0px 0px 1px;
 }
 .footer .block_newsletter button:hover{
     background-color:var(--bg-green);
